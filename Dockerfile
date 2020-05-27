@@ -16,6 +16,8 @@ RUN conda install --yes \
     pandas==1.0.0 \
     xarray==0.14.1 \
     bokeh==2.0.0 \
+    s3fs==0.4.2 \
+    fsspec==0.7.4 \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
