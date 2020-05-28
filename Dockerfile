@@ -19,6 +19,10 @@ RUN conda install --yes \
     s3fs==0.4.2 \
     fsspec==0.7.4 \
     h5netcdf==0.8.0 \
+    distributed==2.17.0 \
+    tornado==6.0.4 \ 
+    cloudpickle==1.4.1 \
+    h5py==2.10.0 \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
