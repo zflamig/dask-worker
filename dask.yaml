@@ -1,5 +1,5 @@
 logging:
-  distributed: info
+  distributed: debug
   bokeh: critical
   tornado: critical
 
