@@ -15,7 +15,7 @@ RUN conda install --yes \
     numpy==1.17.3 \
     pandas==1.0.0 \
     xarray==0.14.1 \
-    bokeh==2.0.0 \
+    bokeh==2.1.1 \
     s3fs==0.4.2 \
     fsspec==0.7.4 \
     h5netcdf==0.8.0 \
