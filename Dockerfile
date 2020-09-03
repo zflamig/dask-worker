@@ -13,7 +13,7 @@ RUN conda install --yes \
     msgpack-python==0.6.2 \
     netcdf4==1.5.3 \
     numpy==1.17.3 \
-    pandas==1.0.0 \
+    pandas==1.0.5 \
     xarray==0.14.1 \
     bokeh==2.1.1 \
     s3fs==0.4.2 \
