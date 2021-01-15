@@ -5,6 +5,7 @@ RUN chmod +x /usr/local/bin/dumb-init
 
 RUN conda install --yes \
     -c conda-forge \
+    python==3.7.9 \
     python-blosc==1.8.1 \
     cytoolz \
     dask==2.19.0 \
@@ -23,8 +24,8 @@ RUN conda install --yes \
     tornado==6.0.4 \ 
     cloudpickle==1.4.1 \
     h5py==2.10.0 \
-    zarr \
-    rechunker \
+    zarr==2.3.2 \
+    rechunker==0.3.2 \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
