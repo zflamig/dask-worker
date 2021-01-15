@@ -23,6 +23,8 @@ RUN conda install --yes \
     tornado==6.0.4 \ 
     cloudpickle==1.4.1 \
     h5py==2.10.0 \
+    zarr \
+    rechunker \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
